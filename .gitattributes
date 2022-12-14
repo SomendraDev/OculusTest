@@ -1,0 +1,68 @@
+## Unity ##
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.asset filter=lfs diff=lfs merge=lfs -text
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+## git-lfs ##
+#Image
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
+#Audio
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+#Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+#3D Object
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+#ETC
+*.a filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.aif filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.rns filter=lfs diff=lfs merge=lfs -text
+*.reason filter=lfs diff=lfs merge=lfs -text
+*.lxo filter=lfs diff=lfs merge=lfs -text
+D:Unity filter=lfs diff=lfs merge=lfs -text
+FirebaseCppApp-8_1_0.so filter=lfs diff=lfs merge=lfs -text
+firebase-app-unity-8.1.0.srcaar filter=lfs diff=lfs merge=lfs -text
+FirebaseCppApp-8_8_0.so filter=lfs diff=lfs merge=lfs -text
+firebase-app-unity-8.8.0.srcaar filter=lfs diff=lfs merge=lfs -text
+com.google.firebase.firebase-app-unity-8.8.0.aar filter=lfs diff=lfs merge=lfs -text
+FirebaseCppRemoteConfig.bundle filter=lfs diff=lfs merge=lfs -text
+com.google.android.gms.play-services-ads-20.6.0.aar filter=lfs diff=lfs merge=lfs -text
+sqlite3.c filter=lfs diff=lfs merge=lfs -text
+12eb7ea4c1d155532c77d818778797194e9a49adf3fff829435d802f869cb1e8 filter=lfs diff=lfs merge=lfs -text
+com.google.guava.guava-27.1-android.jar filter=lfs diff=lfs merge=lfs -text
+com.google.android.gms.play-services-ads-21.0.0.aar filter=lfs diff=lfs merge=lfs -text
+686404f2d1d4d221911f96bd627ff60dac2226a5dfa6fb8ba517073eb97ec0ef filter=lfs diff=lfs merge=lfs -text
+*.aar filter=lfs diff=lfs merge=lfs -text
+firebase-app-unity-9.4.0.srcaar filter=lfs diff=lfs merge=lfs -text
+705f0fd19beec7b370bfa1bb467119a93d4163d2760d1932d27cee6ea79b54aa filter=lfs diff=lfs merge=lfs -text
+90b37d16218a31660c02f28c76150a64e87cd76f64227a81e527ae409320e237 filter=lfs diff=lfs merge=lfs -text
+c9496086a7abb4db89ca5e2436613e5bdb264aac32e5783b78052047fbc948b3 filter=lfs diff=lfs merge=lfs -text
+arm64-apple-ios.swiftdoc filter=lfs diff=lfs merge=lfs -text
+arm64-apple-ios.swiftinterface filter=lfs diff=lfs merge=lfs -text
+armv7-apple-ios.swiftdoc filter=lfs diff=lfs merge=lfs -text
+armv7-apple-ios.swiftinterface filter=lfs diff=lfs merge=lfs -text
